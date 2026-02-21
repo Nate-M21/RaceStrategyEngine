@@ -1,0 +1,22 @@
+# monza Track Configuration
+pit_entry = 0.9546
+pit_lane_displacement = 0.1421
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.4764
+activation_point_start = 0.5179
+activation_point_end = 0.6715
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.9529
+activation_point_start = 0.0035
+activation_point_end = 0.1562
+

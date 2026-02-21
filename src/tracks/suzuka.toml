@@ -1,0 +1,16 @@
+# suzuka Track Configuration
+pit_entry = 0.8808
+pit_lane_displacement = 0.2225
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.8662
+activation_point_start = 0.0000
+activation_point_end = 0.1154
+

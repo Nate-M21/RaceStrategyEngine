@@ -1,0 +1,22 @@
+# austin Track Configuration
+pit_entry = 0.9365
+pit_lane_displacement = 0.1565
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.8790
+activation_point_start = 0.9704
+activation_point_end = 0.1038
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.4219
+activation_point_start = 0.5059
+activation_point_end = 0.6568
+

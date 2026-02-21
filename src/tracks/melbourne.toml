@@ -1,0 +1,34 @@
+# melbourne Track Configuration
+pit_entry = 0.8905
+pit_lane_displacement = 0.1474
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.8526
+activation_point_start = 0.9189
+activation_point_end = 0.0568
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.8526
+activation_point_start = 0.1137
+activation_point_end = 0.1951
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.3751
+activation_point_start = 0.4841
+activation_point_end = 0.6120
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.3751
+activation_point_start = 0.6631
+activation_point_end = 0.7617
+

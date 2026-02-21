@@ -1,0 +1,28 @@
+# sakhir Track Configuration
+pit_entry = 0.9451
+pit_lane_displacement = 0.1491
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.1330
+activation_point_start = 0.1755
+activation_point_end = 0.2735
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.4629
+activation_point_start = 0.5100
+activation_point_end = 0.6135
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.8869
+activation_point_start = 0.9516
+activation_point_end = 0.1349
+

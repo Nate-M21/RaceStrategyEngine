@@ -1,0 +1,22 @@
+# shanghai Track Configuration
+pit_entry = 0.9356
+pit_lane_displacement = 0.2350
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.9182
+activation_point_start = 0.9604
+activation_point_end = 0.0917
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.5779
+activation_point_start = 0.7063
+activation_point_end = 0.8576
+

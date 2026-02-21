@@ -1,0 +1,22 @@
+# barcelona Track Configuration
+pit_entry = 0.9051
+pit_lane_displacement = 0.2001
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.5847
+activation_point_start = 0.6360
+activation_point_end = 0.7327
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.9096
+activation_point_start = 0.9671
+activation_point_end = 0.1754
+

@@ -1,0 +1,22 @@
+# silverstone Track Configuration
+pit_entry = 0.8997
+pit_lane_displacement = 0.2149
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.6238
+activation_point_start = 0.7172
+activation_point_end = 0.8394
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.1426
+activation_point_start = 0.2207
+activation_point_end = 0.3276
+

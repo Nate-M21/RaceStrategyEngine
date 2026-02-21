@@ -1,0 +1,21 @@
+# abu_dhabi Track Configuration
+pit_entry = 0.97
+pit_lane_displacement = 0.18
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 0.8
+detection_point = 0.228
+activation_point_start = 0.3702
+activation_point_end = 0.5112
+
+[[drs.drs_zones]]
+drs_boost = 0.8
+detection_point = 0.549
+activation_point_start = 0.5902
+activation_point_end = 0.7063

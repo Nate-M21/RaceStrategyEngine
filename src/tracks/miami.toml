@@ -1,0 +1,28 @@
+# miami Track Configuration
+pit_entry = 0.9507
+pit_lane_displacement = 0.1500
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.9442
+activation_point_start = 0.9747
+activation_point_end = 0.0721
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.3326
+activation_point_start = 0.4157
+activation_point_end = 0.5654
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.6837
+activation_point_start = 0.7576
+activation_point_end = 0.8999
+

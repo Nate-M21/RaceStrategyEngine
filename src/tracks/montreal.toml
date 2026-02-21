@@ -1,0 +1,28 @@
+# montreal Track Configuration
+pit_entry = 0.8886
+pit_lane_displacement = 0.1802
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.2614
+activation_point_start = 0.3210
+activation_point_end = 0.4414
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.4896
+activation_point_start = 0.6925
+activation_point_end = 0.8874
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.4896
+activation_point_start = 0.9058
+activation_point_end = 0.0573
+

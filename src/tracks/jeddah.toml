@@ -1,0 +1,28 @@
+# jeddah Track Configuration
+pit_entry = 0.9491
+pit_lane_displacement = 0.1408
+
+# DRS Configuration
+[drs]
+delta_for_drs_activation = 1.0  # Standard value in F1, but can be overridden by RaceConfiguration
+drs_activation_lap = 3          # Standard value in F1, but can be overridden by RaceConfiguration
+
+# DRS Zones
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.5206
+activation_point_start = 0.5782
+activation_point_end = 0.6851
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.6859
+activation_point_start = 0.7548
+activation_point_end = 0.8803
+
+[[drs.drs_zones]]
+drs_boost = 1.0000 # default value for tracks 
+detection_point = 0.9200
+activation_point_start = 0.9362
+activation_point_end = 0.0745
+
