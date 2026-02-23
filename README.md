@@ -7,6 +7,8 @@ This repository contains techniques to aid in the optimisation of race strategy 
 
 As this started as a research project, quick prototyping was prioritized. So future updates are expected to be breaking changes. For example, simulations are currently created using Python dictionaries in `simulation_parameters_example.py`. This approach will likely change once a more scalable API is developed, but it currently serves as a straightforward introduction to the project's core functionality.
 
+Contact person: [Nathi Makhubele](mailto:makhubelen@icloud.com)
+
 ## Installation
 
 The code in repository was builted and tested on macOS and makes use of Python and Rust.
